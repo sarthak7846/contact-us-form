@@ -37,7 +37,7 @@ const Contact = () => {
     event.preventDefault();
     setLoader(true);
 
-    db.collection("contacts")
+    db.collection("messages")
       .add({
         name: name,
         email: email,
